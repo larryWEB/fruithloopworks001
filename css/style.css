@@ -1586,4 +1586,25 @@ button {
   .menu-toggle {
     display: block;
   }
+
+
+  /* ABOOUT */
+
+    .about-preview .container {
+      flex-direction: column;
+    }
+  
+    .about-preview-content,
+    .about-preview-image {
+      width: 100%;
+    }
+  
+    .about-preview-image {
+      margin-top: 2rem;
+    }
+
+  
+
+
+
 }
