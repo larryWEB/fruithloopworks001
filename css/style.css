@@ -1557,3 +1557,33 @@ button {
     padding: 2rem;
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-white);
+    display: none;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity var(--transition-fast), transform var(--transition-fast);
+    z-index: 999;
+    padding: 2rem 0;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 1.5rem 0;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
